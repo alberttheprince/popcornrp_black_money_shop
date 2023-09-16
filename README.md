@@ -12,6 +12,8 @@ This was initially written to use the "panty" item that comes with ox to give us
 
 Please ensure this after ox_inventory, and **make sure that you restart this resource if you restart ox_inventory every time.**
 
+Note that the price should be set to the number of items you want sold, so if you want players to sell stacks of 5, set the price to 5, 10 then set to 10. If you restart ox_inventory, this will make them sell the items for that much, and players will receive five black_money for one panties item for example, so always make sure it's running before introducing it to your community.
+
 An Example of how you should format your shops to work with this:
 
 ```
@@ -19,7 +21,6 @@ An Example of how you should format your shops to work with this:
         name = 'Creep',
         inventory = {
             { name = 'black_money', price = 1, currency = 'panties', },
-            { name = 'black_money', price = 10, currency = 'panties', },
         },
         locations = {
 

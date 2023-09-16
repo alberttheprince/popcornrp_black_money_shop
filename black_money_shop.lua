@@ -1,5 +1,8 @@
 local blackMoneyShop = {
     ["panties"] = 250,
+    ["goldchain"] = 1250,
+    ["diamond_ring"] = 5000,
+    ["rolex"] = 4250,
 }
 
 local hookId = exports.ox_inventory:registerHook('buyItem', function(payload)

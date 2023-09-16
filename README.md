@@ -4,7 +4,7 @@
 **Required:**
 - https://github.com/overextended/ox_inventory
 
-This is a small resource we use on Popcorn RP written by the great @Demigod916 (permission was given to upload this) and used to sell items to NPCs for black money. Ox Inventory allows you to use items as currency, but this allows you to sell items for groups of items like black_money or cash. 
+This is a small resource we use on Popcorn RP written by the great @Demigod916 https://github.com/Demigod916 (permission was given to upload this) and used to sell items to NPCs for black money. Ox Inventory allows you to use items as currency, but this allows you to sell items for groups of items like black_money or cash. 
 
 Please support Demi here: https://ko-fi.com/demigod916
 

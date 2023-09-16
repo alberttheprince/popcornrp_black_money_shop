@@ -36,3 +36,30 @@ An Example of how you should format your shops to work with this:
     },
 
 ```
+
+Example of a shop using mixed items (both selling and buying items):
+
+```
+    PawnShop = {
+        name = 'Fence',
+        inventory = {
+            { name = 'black_money', price = 5, currency = 'goldchain', },
+            { name = 'black_money', price = 5, currency = 'diamond_ring', },
+            { name = 'black_money', price = 5, currency = 'rolex', },
+            { name = 'phone', price = 500, currency = 'black_money', },
+        },
+        locations = {
+
+        },
+        targets = {
+            {
+                ped = `cs_mrk`,
+                scenario = 'WORLD_HUMAN_LEANING_CASINO_TERRACE',
+                loc = vector3(414.37, 343.47, 101.5),
+                heading = 342.77,
+                distance = 2.0,
+            },
+        }
+    },
+
+```

@@ -1,15 +1,16 @@
 # ox_blackmoney_shop
+![image](https://github.com/alberttheprince/ox_blackmoney_shop/assets/85725579/189b6b05-e603-4c9f-b103-db3df871a8ac)
 
 **Required:**
 - https://github.com/overextended/ox_inventory
 
-This is a small resource we use on Popcorn RP written by the great @Demigod916, used to sell items to NPCs for black money. Ox Inventory gives you the ability to use items as currency, but this allows you to trade items for groups of items/money. 
+This is a small resource we use on Popcorn RP written by the great @Demigod916 (permission was given to upload this) and used to sell items to NPCs for black money. Ox Inventory allows you to use items as currency, but this allows you to sell items for groups of items like black_money or cash. 
 
-For example, you can sell gold chains, phones, etc and receive black money in exchange.
+For example, you can sell gold chains, phones, etc. and receive black money in exchange.
 
-This was initially written to make use of the "panty" item that comes with ox, to make use of a joke/cringe item. 
+This was initially written to use the "panty" item that comes with ox to give use to a joke/cringe item. 
 
-Ensure this after ox_inventory, and make sure that you restart this resource if you restart ox_inventory, every time.
+Please ensure this after ox_inventory, and **make sure that you restart this resource if you restart ox_inventory every time.**
 
 An Example of how you should format your shops to work with this:
 
@@ -18,6 +19,7 @@ An Example of how you should format your shops to work with this:
         name = 'Creep',
         inventory = {
             { name = 'black_money', price = 1, currency = 'panties', },
+            { name = 'black_money', price = 10, currency = 'panties', },
         },
         locations = {
 
@@ -32,4 +34,5 @@ An Example of how you should format your shops to work with this:
             },
         }
     },
+
 ```

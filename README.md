@@ -16,6 +16,9 @@ Please ensure this after ox_inventory, and **make sure that you restart this res
 
 Note that the price should be set to the number of items you want sold, so if you want players to sell stacks of 5, set the price to 5, 10 then set to 10. If you restart ox_inventory, this will make them sell the items for that much, and players will receive five black_money for one panties item for example, so always make sure it's running before introducing it to your community.
 
+Please add all items you intend to be handled this way to the **ox_black_money_shop.lua** file. Prices per purchase (not item) are set in there. 
+
+
 An Example of how you should format your shops to work with this:
 
 ```

@@ -1,24 +1,5 @@
 local blackMoneyShop = {
     ["panties"] = 250,
-    ["goldchain"] = 1250,
-    ["minigoldbar"] = 7500,
-    ["diamond_ring"] = 5000,
-    ["rolex"] = 4250,
-    ["10kgoldchain"] = 2500,
-    ["tablet"] = 500,
-    ["iphone"] = 600,
-    ["samsungphone"] = 600,
-    ["laptop"] = 750,
-    ["diamond"] = 1250,
-    ["emerald"] = 1000,
-    ["dendrogyra_coral"] = 2750,
-    ["antipatharia_coral"] = 2550,
-    ["stolenmicro"] = 250,
-    ["stolencoffee"] = 150,
-    ["stolentv"] = 750,
-    ["stolenscope"] = 250,
-    ["stolenart"] = 450,
-    ["stolenlaptop"] = 500,
 }
 
 local hookId = exports.ox_inventory:registerHook('buyItem', function(payload)

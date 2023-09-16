@@ -6,6 +6,8 @@
 
 This is a small resource we use on Popcorn RP written by the great @Demigod916 (permission was given to upload this) and used to sell items to NPCs for black money. Ox Inventory allows you to use items as currency, but this allows you to sell items for groups of items like black_money or cash. 
 
+Please support Demi here: https://ko-fi.com/demigod916
+
 For example, you can sell gold chains, phones, etc. and receive black money in exchange.
 
 This was initially written to use the "panty" item that comes with ox to give use to a joke/cringe item. 

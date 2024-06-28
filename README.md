@@ -1,4 +1,4 @@
-# ox_blackmoney_shop
+# popcornrp_blackmoney_shop
 ![image](https://github.com/alberttheprince/ox_blackmoney_shop/assets/85725579/189b6b05-e603-4c9f-b103-db3df871a8ac)
 
 **Required:**
